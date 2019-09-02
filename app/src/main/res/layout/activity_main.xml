@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.android.custommusicapp.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/lady_gaga"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/lady_gaga" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/foo_fighters"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/foo_fighters" />
+
+    <TextView
+        android:id="@+id/lana_del_rey"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/lana_del_rey" />
+
+    <TextView
+        android:id="@+id/radiohead"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/radiohead" />
+
+    <TextView
+        android:id="@+id/bjork"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/bjork" />
+
+    <TextView
+        android:id="@+id/smashing_pumpkins"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/smashing_pumpkins" />
+
+</LinearLayout>

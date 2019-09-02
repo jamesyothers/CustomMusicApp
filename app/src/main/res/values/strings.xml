@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Custom Music App</string>
+    <string name="app_name">Random Music App</string>
+
+    <string name="lady_gaga">Lady Gaga</string>
+
+    <string name="foo_fighters">Foo Fighters</string>
+
+    <string name="lana_del_rey">Lana Del Rey</string>
+
+    <string name="radiohead">Radiohead</string>
+
+    <string name="bjork">Bjork</string>
+
+    <string name="smashing_pumpkins">Smashing Pumpkins</string>
 </resources>
