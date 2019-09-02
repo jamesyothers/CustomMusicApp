@@ -12,37 +12,37 @@
     <TextView
         android:id="@+id/lady_gaga"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/gaga"
         android:text="@string/lady_gaga" />
 
     <TextView
         android:id="@+id/foo_fighters"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/foo"
         android:text="@string/foo_fighters" />
 
     <TextView
         android:id="@+id/lana_del_rey"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/lana"
         android:text="@string/lana_del_rey" />
 
     <TextView
         android:id="@+id/radiohead"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/radio"
         android:text="@string/radiohead" />
 
     <TextView
         android:id="@+id/bjork"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/bjork"
         android:text="@string/bjork" />
 
     <TextView
         android:id="@+id/smashing_pumpkins"
         style="@style/CategoryStyle"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/pumpkins"
         android:text="@string/smashing_pumpkins" />
 
 </LinearLayout>
