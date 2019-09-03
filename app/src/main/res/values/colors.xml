@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="gaga">#D81B60</color>
-    <color name="foo">#3949AB</color>
-    <color name="lana">#8E24AA</color>
-    <color name="radio">#1E88E5</color>
-    <color name="bjork">#E53935</color>
-    <color name="pumpkins">#5E35B1</color>
+    <color name="colorPrimary">#536DFE</color>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="background">#0D47A1</color>
+    <color name="gaga">#448AFF</color>
+    <color name="foo">#0277BD</color>
+    <color name="lana">#0097A7</color>
+    <color name="radio">#00796B</color>
+    <color name="bjork">#388E3C</color>
+    <color name="pumpkins">#2E7D32</color>
 </resources>

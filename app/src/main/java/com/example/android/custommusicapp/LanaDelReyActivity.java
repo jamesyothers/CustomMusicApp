@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class LadyGagaActivity extends AppCompatActivity {
+public class LanaDelReyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

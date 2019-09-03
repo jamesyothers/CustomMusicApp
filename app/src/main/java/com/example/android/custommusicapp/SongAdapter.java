@@ -1,6 +1,7 @@
 package com.example.android.custommusicapp;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,11 +40,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
         // set this text on the name TextView
         songNameTextView.setText(currentSong.getSongName());
 
-        // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView artistNameTextView = (TextView) listItemView.findViewById(R.id.artist_name_text_view);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
-        artistNameTextView.setText(currentSong.getArtistName());
+        songNameTextView.setTextColor(Color.WHITE);
 
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView albumNameTextView = (TextView) listItemView.findViewById(R.id.album_name_text_view);
@@ -51,11 +48,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
         // set this text on the number TextView
         albumNameTextView.setText(currentSong.getAlbumName());
 
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-        // ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
-        // Get the image resource ID from the current Song object and
-        // set the image to iconView
-        // iconView.setImageResource(currentSong.getImageResourceId());
+        albumNameTextView.setTextColor(Color.WHITE);
 
         // Return the whole list item layout (containing 3 TextViews and an ImageView)
         // so that it can be shown in the ListView

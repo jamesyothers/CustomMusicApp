@@ -5,9 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     android:orientation="vertical"
     tools:context="com.example.android.custommusicapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Select an artist below to listen to random song" />
 
     <TextView
         android:id="@+id/lady_gaga"
@@ -26,23 +31,5 @@
         style="@style/CategoryStyle"
         android:background="@color/lana"
         android:text="@string/lana_del_rey" />
-
-    <TextView
-        android:id="@+id/radiohead"
-        style="@style/CategoryStyle"
-        android:background="@color/radio"
-        android:text="@string/radiohead" />
-
-    <TextView
-        android:id="@+id/bjork"
-        style="@style/CategoryStyle"
-        android:background="@color/bjork"
-        android:text="@string/bjork" />
-
-    <TextView
-        android:id="@+id/smashing_pumpkins"
-        style="@style/CategoryStyle"
-        android:background="@color/pumpkins"
-        android:text="@string/smashing_pumpkins" />
 
 </LinearLayout>
