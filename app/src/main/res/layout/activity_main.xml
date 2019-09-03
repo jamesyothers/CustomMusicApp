@@ -12,12 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:text="Select an artist below to listen to random song" />
+        android:paddingLeft="16dp"
+        android:text="@string/instructions" />
 
     <TextView
         android:id="@+id/lady_gaga"
         style="@style/CategoryStyle"
-        android:background="@color/gaga"
+        android:background="@color/lightblue"
         android:text="@string/lady_gaga" />
 
     <TextView

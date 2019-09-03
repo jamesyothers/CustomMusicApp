@@ -3,11 +3,8 @@ package com.example.android.custommusicapp;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import java.lang.Math;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 
 public class LanaDelReyActivity extends AppCompatActivity {
@@ -19,11 +16,11 @@ public class LanaDelReyActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<Song>();
 
-        songs.add(new Song("Song: Applause", "Artist: Lady Gaga", "Album: ARTPOP", false));
-        songs.add(new Song("Song: Paparazzi", "Artist: Lady Gaga", "Album: The Fame", false));
-        songs.add(new Song("Song: Speechless", "Artist: Lady Gaga", "Album: The Fame Monster", false));
-        songs.add(new Song("Song: Angel Down", "Artist: Lady Gaga", "Album: Joanne", false));
-        songs.add(new Song("Song: Bad Kids", "Artist: Lady Gaga", "Album: Borne This Way", false));
+        songs.add(new Song("Song: Summertime Sadness", "Artist: Lana Del Rey", "Album: Borne to Die", false));
+        songs.add(new Song("Song: Salvatore", "Artist: Lana Del Rey", "Album: Honeymoon", false));
+        songs.add(new Song("Song: 13 Beaches", "Artist: Lana Del Rey", "Album: Lust for Life", false));
+        songs.add(new Song("Song: Shades of Cool", "Artist: Lana Del Rey", "Album: Ultraviolence", false));
+        songs.add(new Song("Song: Blue Jeans", "Artist: Lana Del Rey", "Album: Born to Die", false));
 
         SongAdapter songAdapter = new SongAdapter(this, songs);
 

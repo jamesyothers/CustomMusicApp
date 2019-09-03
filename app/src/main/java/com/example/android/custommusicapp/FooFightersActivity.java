@@ -3,11 +3,8 @@ package com.example.android.custommusicapp;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import java.lang.Math;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 
 public class FooFightersActivity extends AppCompatActivity {
@@ -19,11 +16,11 @@ public class FooFightersActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<Song>();
 
-        songs.add(new Song("Song: Applause", "Artist: Lady Gaga", "Album: ARTPOP", false));
-        songs.add(new Song("Song: Paparazzi", "Artist: Lady Gaga", "Album: The Fame", false));
-        songs.add(new Song("Song: Speechless", "Artist: Lady Gaga", "Album: The Fame Monster", false));
-        songs.add(new Song("Song: Angel Down", "Artist: Lady Gaga", "Album: Joanne", false));
-        songs.add(new Song("Song: Bad Kids", "Artist: Lady Gaga", "Album: Borne This Way", false));
+        songs.add(new Song("Song: My Hero", "Artist: Foo Fighters", "Album: The Colour and the Shape", false));
+        songs.add(new Song("Song: This is a Call", "Artist: Foo Fighters", "Album: Foo Fighters", false));
+        songs.add(new Song("Song: Stacked Actors", "Artist: Foo Fighters", "Album: There is Nothing Left to Lose", false));
+        songs.add(new Song("Song: I am a River", "Artist: Foo Fighters", "Album: Sonic Highways", false));
+        songs.add(new Song("Song: The Deepest Blues are Black", "Artist: Foo Fighters", "Album: In Your Honor", false));
 
         SongAdapter songAdapter = new SongAdapter(this, songs);
 

@@ -7,4 +7,10 @@
 
     <string name="lana_del_rey">Lana Del Rey</string>
 
+    <string name="instructions">Select an artist below to listen to random song</string>
+
+    <string name="now_playing">Now Playing:</string>
+
+    <string name="all_available_songs">All Available Songs:</string>
+
 </resources>

@@ -3,11 +3,8 @@ package com.example.android.custommusicapp;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import java.lang.Math;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 
 public class LadyGagaActivity extends AppCompatActivity {
